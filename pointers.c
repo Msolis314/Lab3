@@ -5,6 +5,11 @@
  *Nombres_Funciones
  *nombres_variables
  * */
+
+/*Funcion que encuentra el minimo
+ *recibe el arreglo y el size
+ Retorna el minimo
+ **/
 int Min( int array[] , int size ) {
 	int min = array[0];
 	for ( int i = 1 ; i < size ; i++) {
@@ -15,6 +20,11 @@ int Min( int array[] , int size ) {
 	return min;
 
 }
+
+/*Funcion que encuentra el maximo
+ *recibe el arreglo y el size
+ Retorna el maximo
+ **/
 
 int Max( int array[] , int size) {
 	int max = array[0];
