@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/*Esta funcion realiza unas busqueda binaria de un numero en un arreglo
+ *Recibe el arreglo, el numero y el indice minimo incial y maximo inicial
+ *Retorna el indice en caso de encontrarlo o imprime un mensaje de error
+ * */
+
 int Binary(int arreglo[] , int numero , int min_index, int max_index) {
 
         int mid;

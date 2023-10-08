@@ -1,15 +1,14 @@
 #include <stdio.h>
 #include "search.h"
-int Binary(int arreglo[] , int numero , int min_index, int max_index) {
+// int Binary(int arreglo[] , int numero , int min_index, int max_index) {
 
-	int mid;
+//	int mid;
 	/*min_indez <= max_index es porque cuando se calcule mid va a dar
 	 * el mismo indice, sino es el numero buscado  siempre se va a incumplir
 	 * la condicion. 
 	 *
 	 * */
-	while ( min_index <= max_index ) {
-
+/*	while ( min_index <= max_index ) {
 		mid = (min_index + max_index)/2;
 		if ( arreglo[mid] > numero ) {
 			// Ahora considero el intervalo a la izquierda de mid por eso le resto uno y lo asigno a max_index
@@ -63,4 +62,4 @@ int main() {
 	Recursive_Binary ( array , choice , min_index , max_index);
 	Normal_Search ( array, choice , longitud);
 	return 0;
-}
+}*/
